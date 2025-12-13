@@ -1,9 +1,11 @@
 h1{
-    color: #2c3e50;
-    font-family: 'Garamond', sans-serif;
+    color: #426180;
+    font-family: 'Garamond';
+    text-decoration: wavy underline;
+    text-underline-offset: calc(2px + 0.1em);
 }
 
-title{
-    color: #2c3e50;
-    font-family: 'Garamond', sans-serif;
+h2{
+    color: hsl(29, 90%, 24%);
+    font-family: 'Times New Roman', serif;
 }
