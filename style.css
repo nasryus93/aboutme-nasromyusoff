@@ -1,4 +1,5 @@
 h1{
+    //text-align: center;
     color: #426180;
     font-family: 'Garamond';
     font-weight: bold;
@@ -13,9 +14,12 @@ h2{
     margin: 20px 20px;
 }
 
-#myphoto {
-    margin-left: 90px;
-}
+/*#myphoto {
+    //margin-left: 90px;
+    display: block;
+    //margin-left: auto;
+    //margin-right: auto;
+}*/
 
 p{
     font-family: 'Times New Roman', serif;
@@ -26,8 +30,35 @@ p{
 }
 
 ul{
+    text-align: center;
     font-family: 'Times New Roman', serif;
     font-size: 18px;
     color: #492a14;
-    margin: 20px 40px;
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    line-height: 1.2;
+}
+
+li::before {
+    content: "•   ";
+    color: #492a14;
+}
+li::after {
+    content: "   •";
+    color: #492a14;
+}
+
+.wholepage {
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #dee7ff;
+    border-radius: 15px;
+    background-color: #ffffff;
 }
