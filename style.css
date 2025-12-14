@@ -1,11 +1,33 @@
 h1{
     color: #426180;
     font-family: 'Garamond';
-    text-decoration: wavy underline;
+    font-weight: bold;
+    text-decoration: underline;
     text-underline-offset: calc(2px + 0.1em);
+    margin: 20px 20px;
 }
 
 h2{
     color: hsl(29, 90%, 24%);
     font-family: 'Times New Roman', serif;
+    margin: 20px 20px;
+}
+
+#myphoto {
+    margin-left: 90px;
+}
+
+p{
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.1;
+    margin: 20px 20px;
+}
+
+ul{
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #492a14;
+    margin: 20px 40px;
 }
